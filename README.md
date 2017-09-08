@@ -1,18 +1,5 @@
 # jazz-code-snippets
-A collection of useful code snippets and classes for interaction with RTC Jazz
+A collection of useful code snippets and classes for interaction with RTC Jazz.
 
-
-
-#### HeaderMessageHandler usage
-```javascript
-define([
-	....
-	"./HeaderMessageHandler",
-	....
-], function( ... HeaderMessageHandler ... ) {
-	.....
-	// usage
-	HeaderMessageHandler.addHeaderMessage("Hello, I am an info message", HeaderMessageHandler.INFO);
-	....
-});
-```
+## Structure
+- rtc-workitem-editor: standard Work Item Editor in RTC code snippets
